@@ -48,7 +48,7 @@ jobs:
     steps:
       - attach_workspace:
           at: /root/workspace
-      - store_artifact:
+      - store_artifacts:
           path: /root/workspace/pointless.zip
           destination: /artifact/pointless.zip
       - run:
