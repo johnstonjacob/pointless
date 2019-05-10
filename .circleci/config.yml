@@ -30,7 +30,7 @@ jobs:
             fi
             jq '.browser_action.default_icon = "icon.png"' manifest.json | sponge manifest.json
       - run:
-          name: "Filler - Proper CI/CD needs to be implemented."
+          name: "Filler - Proper CI/CD needs to be implemented. #TODO"
           command: echo "The start of our build process."
       - run:
           name: "Package Extension"
